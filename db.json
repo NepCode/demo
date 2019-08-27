@@ -1,14 +1,75 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "logs": [
+    {
+      "message": "Changed network card in server 007",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2019-05-31T15:46:10.179Z",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "message": "Fixed hard drive on workstation 002",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-05-31T16:18:04.245Z"
+    },
+    {
+      "message": "1122 wireless down",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2019-05-31T15:46:48.690Z",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "message": "Workstation 026 is up and running",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "ASASD",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2019-07-18T23:55:21.280Z",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "message": "workstation is out of service #412",
+      "attention": false,
+      "tech": "Antonio Aguila",
+      "date": "2019-07-19T00:05:08.658Z"
+    },
+    {
+      "message": "aaaaaaaaaaaaaaaaa",
+      "attention": true,
+      "tech": "aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa",
+      "date": "2019-07-19T00:30:46.802Z",
+      "id": 7
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Antonio",
+      "lastName": "Aguila",
+      "id": 4
+    }
+  ]
 }
